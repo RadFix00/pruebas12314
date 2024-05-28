@@ -1,0 +1,187 @@
+* {
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+.navegador {
+    background-repeat: no-repeat;
+    background-image: url(895289.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 15%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.lista {
+    margin-top: 30px;
+}
+
+.lista a {
+    margin-top: 40%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 180%;
+    margin-right: auto;
+}
+
+
+.lista a:hover {
+    color: black;
+    background-color: white;
+}
+
+.Principal {
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background:  #45a049;; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
+.texto2 {
+    display: flex;
+
+}
+
+#orden {
+    margin-top: 3%;
+    margin-left: 05%;
+    margin-bottom: 2%;
+    font-family: 'roboto';
+}
+
+#numero {
+    margin-left: 20%;
+    font-size: 150%;
+
+
+}
+
+#telefono {
+    margin-right: 6%;
+ height: 50px;
+
+}
+
+#name {
+    margin-right: 0%;
+    width: 230px;
+    height: 50px;
+}
+
+#nombre {
+    margin-left: 5%;
+    font-size: 150%;
+
+}
+
+.texto {
+    display: flex;
+    background-color: #45a049;
+    color: white;
+}
+
+.nit {
+    margin: 1.5%;
+    margin-left: 10%;
+
+}
+
+.empresa {
+    margin: 1.5%;
+    margin-left: 10%;
+}
+
+.fecha {
+    margin: 1.5%;
+}
+#Eproducto{
+
+    margin-left: 5%;
+    font-size: 150%;
+}
+
+#Cantidades{
+    margin-left: 32%;
+    font-size: 150%;
+    margin-right: 20px;
+}
+#cantidad{
+
+    margin-right: 10%;
+    width: 230px;
+    height: 50px;
+
+}
+.precio{
+margin-left: 40%;
+font-size: 130%;
+}
+#valor{
+font-size: 130%;
+
+}
+.validar{
+height: 50px;
+    width: 180px;
+}
+#dataForm {
+   
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.orden{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+} 
+.order:hover{
+    background-color: #45a049;
+}
+.orden:active{
+    background-color: #3e8e41;
+}
+h2{
+margin-top:4% ;
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    background-color: #45a049;
+
+}
+.TAgregado{
+
+   text-align: center;
+   color: whitesmoke;
+    font-family: 'roboto'; 
+    font-size:20px;
+    background-color: #45a049;
+}

@@ -1,0 +1,74 @@
+* {
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;      
+}
+
+header {
+    display: flex;
+}
+
+.navegador {
+    background-repeat: no-repeat;
+    background-image: url(895289.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 280px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;   
+}
+
+.lista {
+    margin-top: 30px;
+}
+
+.lista a {
+    margin-top: 40%;
+    text-align: center;    
+    display: block;
+    text-decoration: none;   
+    color: #ffffff; 
+    font-size: 180%;
+}
+
+
+.lista a:hover{       
+    color: black;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+    Color: Black;
+    font-weight: Bold;
+    font-size:45px;
+}
+
+.seleccionar{
+    text-align: center;
+    background-color: gray;
+    margin-top: 30px;
+    padding:20px;
+}
+
+.seleccionar div{
+    font-size: 30px;
+}
+
+#opciones{
+    height: 50px;
+    width: 15%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.seleccionar button{
+    margin: 30px;
+    font-size: 20px;
+}
+
+

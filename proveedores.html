@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proveedores.css">
+    <title>Proveedores</title>
+</head>
+
+<body>
+    <div class="navegador">
+        <li class="lista">
+            <h1>Menú</h1>
+            <a href="inventario.html">inventario</a>
+            <a href="proveedores.html">proveedores</a>
+            <a href="pedido.html">pedido</a>
+        </li>
+    </div>
+    <h1>Proveedores</h1>
+    <form class="seleccionar">
+        <div>Seleccione una opción: </div>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">Proveedor 1</option>
+            <option value="opcion2">Proveedor 2</option>
+            <option value="opcion3">Proveedor 3</option>
+            <option value="opcion4">Proveedor 4</option>
+        </select>
+        <br>
+        <button id="vamos" type="Button">¡Vamos!</button>
+    </form>
+
+    <script>
+        document.getElementById('vamos').addEventListener('click', function () {
+            var seleccionada = document.getElementById('opciones').value;
+
+            if (seleccionada == "opcion1") {
+                window.location.href = "proveedor1.html";
+            }
+            if(seleccionada == "opcion2"){
+                window.location.href = 'proveedor2.html';
+            }
+            if(seleccionada == "opcion3"){
+                window.location.href = 'proveedor3.html';
+            }
+            if(seleccionada == "opcion4"){
+                window.location.href = 'proveedor4.html';
+            }
+        })
+    </script>
+</body>
+
+</html>

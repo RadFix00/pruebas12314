@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <form name="loginForm" id="form">
+            <div class="form">
+                <div class="titulo">
+                    <h2>Login</h2><br>
+                </div>
+                <div class="grupo">
+                    <input type="text" name="nombre" id="nombre" placeholder="Usuario" required />
+                </div>
+                <div class="grupo">
+                    <input type="password" name="clave" id="clave" placeholder="Contraseña" required />
+                </div>
+            </div>
+            <div class="hhola">
+                <button type="button" id="button">Ingresa</button>
+            </div>
+            <div class="hhola">
+                <a>¿Has olvidado tu contraseña?</a>
+                <a class="hola" href="recordar.html">Haz click aquí</a>
+            </div>
+            <h1 id="mensaje"></h1>
+        </form>
+    </main>
+    <footer>
+    </footer>
+
+    <script>
+        document.getElementById('button').addEventListener('click', function() {
+            var nombre = document.getElementById('nombre').value;
+            var clave = document.getElementById('clave').value;
+
+            if (nombre === "Admin" && clave === "1234") {
+                window.location.href = "inventario.html";
+            } else {
+                window.location.href = "registrarse.html";
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+* {
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;     
+}
+
+main {     
+    background-image: url(895289.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 627px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.titulo { /* login */
+    margin-bottom: 30px;
+}
+
+.hhola {
+    margin-top: 20px;
+}
+
+.hola {
+    color: #DE868F ;
+    text-decoration: none;      
+}
+
+h2{
+    color: #DE868F;   
+    text-align: center; 
+    font-weight: 700;
+    margin: 0px 30px -20px 30px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.89);
+    padding: 37px 0;
+    box-shadow: 0 0 40px 0 rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 390px;   
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    margin: auto;   
+}
+
+form .grupo{
+    position: relative;
+    margin: 15px 25px 05px 25px;    
+}
+
+input {  
+    background-color: #a4e0e87b;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+}
+
+
+button {      
+    background-color:  #de868fa9; 
+    border: none;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s ease width;
+}
+
+button:hover{      
+    width: 80%;  
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    main {
+        background-image: url(img\,mobil.jpg);
+        background-size: cover;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

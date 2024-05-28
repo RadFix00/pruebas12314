@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pedido.css">
+  <title>Pedido</title>
+</head>
+
+<body>
+  <header>
+    <div class="navegador">
+      <li class="lista">
+        <h1>Menú</h1>
+        <a href="inventario.html">Inventario</a>
+        <a href="proveedores.html">Proveedores</a>
+        <a href="pedido.html">Pedido</a>
+      </li>
+    </div>
+  </header>
+  <main>
+    <section class="Principal">
+      <h1>Pedidos</h1>
+
+      <br><br>
+
+    </section>
+    <div class="texto">
+      <h1 id="fecha" class="fecha">fecha: <time datetime=" 2024-05-10"> 2024-05-10</time></h1>
+      <h1 class="empresa" id="empresa"> Districomestibles NC </h1>
+      <h1 class="nit">NIT:8300657841-4</h1>
+    </div>
+    <section>
+      <br>
+      <form id="dataForm" method="post" action="receive.php">
+
+        <legend id="ordenT">CREAR ORDEN </legend><br><br>
+        <div class="texto2">
+          <label id="nombre">Nombre del cliente y <br> apellidos: </label>
+          <input type="text" id="name" name="name" placeholder="Introduce tu nombre" minlength="3" maxlength="50"
+            title="introduce al menos 3 caracteres maximo 50" tabindex="0" autofocus="true" autocomplete="off"
+            required><br><br>
+
+          <label id="numero">Número de telefono:</label>
+          <input type="number" name="telefono" id="telefono"><br><br>
+        </div>
+        <br><br><br><br><br>
+        <div class="texto2">
+          <select name="escogerProducto" id="Eproducto">
+            <label>Escoja un producto</label>
+            <option value="nada" select="selected">Seleccione un Producto</option>
+            <option value="Cupcakes">Cupcakes</option>
+            <option value="Postre de gelatinas">Postre de gelatinas</option>
+            <option value="Milojas">Milojas</option>
+            <option value="Leche asada">Leche asada</option>
+            <option value="Pudin">Pudin</option>
+            <option value="Rollos de canela">Rollos de canela </option>
+          </select><br><br>
+          <label id="Cantidades">Cantidades: </label>
+          <input type="number" name="Cantidades" id="cantidad" placeholder="introduce la cantidad de productos" min="2"
+            max="995465466343" tabindex="1">
+        </div>
+        <br><br>
+        <br><br>
+        <br><br>
+        <div class="precio">
+          <label for="document">Precio</label>
+          <input type="number" name="Precio" id="valor" placeholder="Precio" min="2" max="995465466343" tabindex="1">
+        </div>
+        <br><br>
+        <br><br><br>
+        <div class="precio">
+          
+          <button class="orden"  id="validar">Enviar orden</button><!--js-->
+          
+        </div>
+      </form>
+
+    </section>
+  
+  </main>
+  <script src="pedido.js"></script>
+  <script src="orden.js"></script>
+</body>
+
+</html>

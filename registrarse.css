@@ -1,0 +1,41 @@
+* {
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;      
+}
+
+header {
+    display: flex;
+}
+
+.navegador {
+    background-repeat: no-repeat;
+    background-image: url(895289.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 280px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;   
+}
+
+.lista {
+    margin-top: 30px;
+}
+
+.lista a {
+    margin-top: 40%;
+    text-align: center;    
+    display: block;
+    text-decoration: none;   
+    color: #ffffff; 
+    font-size: 180%;
+}
+
+
+.lista a:hover{       
+    color: black;
+    background-color: white;
+}
